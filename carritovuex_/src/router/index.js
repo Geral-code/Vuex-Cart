@@ -7,6 +7,12 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+
+  {
+    path: '/carrito',
+    name: 'CarritoProducto',
+    component: () => import(/* webpackChunkName: "carrito-producto" */ '@/views/CarritoProductoView.vue')
+  }
   // {
   //   path: '/about',
   //   name: 'about',

@@ -22,7 +22,7 @@
 
 
          <!-- icono del carrito de compra  -->
-         <router-link class="carrito-container" to="/">
+         <router-link class="carrito-container" to="/carrito">
 
          <div class="carrito-icon">
            <!-- icono -->
